@@ -1,0 +1,51 @@
+.container{
+    background: white;
+}
+.block{
+    background: white;
+    margin: 0rem 0px 4rem 0;
+
+}
+.header-text{
+    margin: 1.52rem 0px 0.012rem 0;
+}
+.header-label{
+    margin: -0.3rem 0px 1rem 0;
+}
+.container {
+    width: 80%;
+}
+.modal .btn-flat {
+    color: #ddd;
+}
+.modal .modal-footer {
+    background-color: #212121;
+}
+.sidenav .user-view .circle {
+    height: 200px;
+    width: 270px;
+}
+.btn-flat {
+    color:  #212121;
+}
+.sidenav-footer {
+    background-color: white;
+    width: 100%;
+}
+.row {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.circle-network {
+    height: 50px;
+    width: 50px;
+}
+.circle-employee {
+    height: 175px;
+    width: 175px;
+}
+
+#map {
+    height: 100%;
+  }

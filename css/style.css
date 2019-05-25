@@ -1,0 +1,237 @@
+html {
+    background-color: whitesmoke
+}
+body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    min-width: 320px;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.container {
+    background-color: white;
+    min-height: calc(100vh - 100px);
+    padding-bottom: 0.1px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.18);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+#modal-message_personal_data .modal-content,
+#modal-message_offer {
+    font-size: 14px;
+    text-align: left;
+}
+
+#modal-message_personal_data,
+#modal-message_offer {
+    max-width: 900px;
+    max-height: 80%;
+    top: 10%!important;
+    z-index: 1003;
+
+}
+.modal {
+    background-color: #fff;
+    max-width: 500px;
+    top: 30%!important;
+    transition: .5s;
+} 
+.email-notification {
+    right: -110px!important;
+    position: absolute!important;
+    left: 170px!important; 
+    color: #45a0da!important;
+}
+.has-danger {
+    position: relative;
+}
+
+input:not([type]), input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url] {
+    height: 2.4rem;
+}
+input:not([type]), input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url] {
+    margin: 0 0 10px;
+}
+legend {
+    font-size: 24px;
+    font-weight: 400;
+}
+.add-new-kved, .btn-kved-info {
+    padding: 0;
+}
+[type="checkbox"].filled-in:checked + span:not(.lever):after {
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #45a0da;
+    background-color: #45a0da;
+    z-index: 0;
+}
+.btn {
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    text-align: center;
+    letter-spacing: .5px;
+    text-decoration: none;
+    transition: .2s ease-out;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: .75rem;
+    background: #45a0da;
+
+}
+.white-btn {
+    color: rgba(0,0,0,.87);
+    background-color: transparent;
+    box-shadow: none;
+}
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color:#039be5;
+}
+button:focus {
+    outline: none;
+    background-color: transparent;
+}
+.add-new-kved, 
+.btn-kved-info, 
+.btn-transparent, 
+.contracts-block .btn-back, 
+.contracts-block button, 
+.declarations-block .btn-back, 
+.declarations-block button, 
+.employees-block .btn-back, 
+.employees-block button:not(.btn), 
+.institution-block 
+.btn-back, 
+.institution-block 
+.btn-new-department, 
+.institution-block form button, 
+.preview-msp-block .btn-back, 
+.print-declaration, 
+.receipts-block .btn-back, 
+.receipts-block button, 
+.verification-msp-block .btn-back, .close {
+    background-color: transparent;
+    /* color: #4db6ac; */
+    color: #45a0da;
+
+    border: none;
+    
+}
+.close {
+    font-size: 24px;
+    margin: 0px 0px 0px -8px;
+}
+#legal-entity form:not([data-id="1"]) {
+    display: none;
+} 
+.register-step-block form {
+    padding: 30px 30px 0;
+}
+.info-kved {
+    top: 0;
+    right: -10px;
+}
+.info-kved {
+    color: #45a0da;
+    text-align: right;
+    font-size: .7em;
+    position: relative;
+    top: 5px;
+    right: 0px;
+    min-height: 35px;
+}
+
+.modal-link {
+    border: dotted 1px #039be5;
+    border-width: 0 0 1px 0;
+    outline: none;
+}
+
+.checkbox-block {
+    height: 70px;
+    width: 100%;
+}
+
+ul.browser-default {
+    padding-left: 30px;
+}
+
+ul.browser-default > li {
+    list-style-type: disc;
+} 
+
+.has-danger .form-control-feedback {
+    color: #f44336;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    position: absolute;
+    top: 85%;
+    right: 12px;
+    text-align: right;
+    line-height: 1;
+    margin-top: 2px;
+}
+.register-step-block .has-danger .material-icons {
+    color: red;
+}
+.has-danger input[type=email]+i,
+.has-danger input[type=password]+i,
+.has-danger input[type=text]+i,
+.has-success input[type=email]+i,
+.has-success input[type=password]+i,
+.has-success input[type=text]+i,
+.radio-block+i {
+    top: 15px;
+    right: 10px;
+}
+.has-danger .material-icons {
+    color: red;
+    display: inline-block!important;
+}
+.register-step-block .has-success .material-icons {
+    color: green;
+}
+.has-success .material-icons {
+    color: green;
+    display: inline-block!important;
+}
+.has-danger select+i, .has-success select+i {
+    top: 30px;
+    right: 30px;
+}
+.position-input {
+    position: absolute;
+    z-index: 1;
+}
+.material-icons {
+    color: #45a0da;
+    vertical-align: middle;
+    padding-right: .5rem;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.brd-bottom{
+    border-bottom: 2px double gray
+}
+
+.search {
+    margin-bottom: 0px;
+}
