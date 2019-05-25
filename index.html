@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>index</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="lib/materialize/js/materialize.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='lib/materialize/css/materialize.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
+    <script src="js/index.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="block" name="header-block">
+            <div class="row" style="margin-bottom: 0px;">
+                <div class="col s12 m12 l12 xl12 valign center">
+                    <h4 class="header header-text">[ COMFORT ZONE ]</h4>
+                </div>
+                <div class="col s12 m12 l12 xl12 valign center">
+                    <h6 class="header header-label">barbershop</h6>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="block" name="social-network-block">
+            <div class="row" style="margin-bottom: 0px;">
+                <div class="col s12 m12 l12 xl12 valign center">
+                    <h4 class="header header-label">Social networks</h4>
+                </div>
+                <div class="col s6 m3 l3 xl3 valign center">
+                    <a href="#user"><img class="circle-network" src="images/Instagram_3717266.png"></a> </div>
+
+                <div class="col s6 m3 l3 xl3 valign center">
+                    <a href="#user"><img class="circle-network" src="images/Facebook_3717269.png"></a> </div>
+
+                <div class="col s6 m3 l3 xl3 valign center">
+                    <a href="#user"><img class="circle-network" src="images/Telegram_3717264.png"></a> </div>
+
+                <div class="col s6 m3 l3 xl3 valign center">
+                    <a href="#user"><img class="circle-network" src="images/Youtube_3717262.png"></a> </div>
+            </div>
+        </div>
+        <div class="block" name="employee-block">
+            <div class="row" style="margin-bottom: 0px;">
+                <div class="col s12 m12 l12 xl12 valign center">
+                    <h4 class="header header-text">Employees</h4>
+                </div>
+                <div class="col s6 m3 l3 xl3 valign center">
+                    <a href="#user"><img class="circle-employee" src="images/barbershop-logo-retro.jpg"></a> </div>
+
+                <div class="col s6 m3 l3 xl3 valign center">
+                    <a href="#user"><img class="circle-employee" src="images/barbershop-logo-retro.jpg"></a> </div>
+
+                <div class="col s6 m3 l3 xl3 valign center">
+                    <a href="#user"><img class="circle-employee" src="images/barbershop-logo-retro.jpg"></a> </div>
+
+                <div class="col s6 m3 l3 xl3 valign center">
+                    <a href="#user"><img class="circle-employee" src="images/barbershop-logo-retro.jpg"></a> </div>
+
+            </div>
+        </div>
+        <div class="block" name="price-block">
+            <div class="row" style="margin-bottom: 0px;">
+                <div class="col s12 m12 l12 xl12 valign center">
+                    <h4 class="header header-text">Price List</h4>
+                </div>
+                <div class="col s12 m12 l12 xl12 valign center">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Услуга</th>
+                                <th>Цена</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Стрижка мужская</td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td>Стрижка машинкой</td>
+                                <td>250</td>
+                            </tr>
+                            <tr>
+                                <td>Стрижка + борода</td>
+                                <td>250</td>
+                            </tr>
+                            <tr>
+                                <td>Cтрижка бороды</td>
+                                <td>150</td>
+                            </tr>
+                            <tr>
+                                <td>Традиционное бритье</td>
+                                <td>150</td>
+                            </tr>
+                            <tr>
+                                <td>Королевское бритье</td>
+                                <td>175</td>
+                            </tr>
+                            <tr>
+                                <td>Комуфляж седины</td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td>Укладка</td>
+                                <td>100</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <div class="block" name="contacts-block">
+            <div class="row" style="margin-bottom: 0px;">
+                <div class="col s12 m12 l12 xl12 valign center">
+                    <h4 class="header header-label">Contacts</h4>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Онлайн запись</h4>
+                <div class="row">
+                    <div class="input-field s12 m12 l12 xl12">
+                        <input type="text" name="person.first_name" id="person[first_name]"></input>
+                        <label for="person[first_name]">Фамилия</label>
+                    </div>
+                    <div class="input-field s12 m12 l12 xl12">
+                        <input type="text" name="person.last_name" id="person[last_name]"></input>
+                        <label for="person[last_name]">Имя</label>
+                    </div>
+                    <div class="input-field s12 m12 l12 xl12">
+                        <input type="text" name="person.phone" id="person[phone]"></input>
+                        <label for="person[phone]">Номер телефона</label>
+                    </div>
+                    <div class="input-field s12 m12 l12 xl12">
+                        <input type="text" name="person.email" id="person[email]"></input>
+                        <label for="person[email]">Электронная почта</label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Назад</a>
+
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Продолжить</a>
+            </div>
+        </div>
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <div class="user-view">
+
+                    <a href="#user"><img class="circle" src="images/logo1.jpg"></a>
+
+                </div>
+            </li>
+            <h4>Онлайн запись</h4>
+
+            <div class="row">
+                <div class="input-field s12 m12 l12 xl12">
+                    <input type="text" name="person.first_name" id="person[first_name]"></input>
+                    <label for="person[first_name]">Фамилия</label>
+                </div>
+                <div class="input-field s12 m12 l12 xl12">
+                    <input type="text" name="person.last_name" id="person[last_name]"></input>
+                    <label for="person[last_name]">Имя</label>
+                </div>
+                <div class="input-field s12 m12 l12 xl12">
+                    <input type="text" name="person.phone" id="person[phone]"></input>
+                    <label for="person[phone]">Номер телефона</label>
+                </div>
+                <div class="input-field s12 m12 l12 xl12">
+                    <input type="text" name="person.email" id="person[email]"></input>
+                    <label for="person[email]">Электронная почта</label>
+                </div>
+
+
+
+                <div class="row sidenav-footer">
+
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat right">Продолжить</a>
+                    <a href="#!" class="modal-close waves-effect waves-green btn-flat right">Назад</a>
+
+                </div>
+            </div>
+        </ul>
+        <!-- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> -->
+
+
+
+
+        <div class="fixed-action-btn">
+            <a class="btn-flat disabled">Онлайн запись</a>
+            <a class="btn-floating btn-large grey darken-4 btn modal-trigger sidenav-trigger" data-target="slide-out"
+                href="#"><i class="large material-icons">add</i></a>
+
+            <a class="btn-floating btn-large grey darken-4 btn modal-trigger" href="#modal1"><i
+                    class="large material-icons">add</i></a>
+        </div>
+
+    </div>
+</body>
+
+</html>
