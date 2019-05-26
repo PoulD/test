@@ -10,7 +10,7 @@
     margin: 1.52rem 0px 0.012rem 0;
 }
 .header-label{
-    margin: -0.3rem 0px 1rem 0;
+    margin: -0rem 0px 1rem 0;
 }
 .container {
     width: 80%;
@@ -49,3 +49,9 @@
 #map {
     height: 100%;
   }
+  .btn-floating {
+    color: #fff;
+
+    background-color: #212121;;
+
+}
