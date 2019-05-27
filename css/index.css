@@ -12,6 +12,13 @@ html {
     margin-bottom: 20px;
     padding-top:40px;
 }
+nav .brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.9rem;
+    padding: 0;
+}
 .block{
     background: white;
     margin: 0rem 0px 4rem 0;
